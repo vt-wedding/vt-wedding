@@ -20,6 +20,14 @@ Table of Contents:
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'pretty';
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/pretty/15556.ttf") format('truetype');
+}
+
+
 /*!
 1. Base
 ================*/
@@ -33,7 +41,7 @@ Table of Contents:
 }
 
 .title {
-	font-family: "laug";
+	font-family: 'pretty';
 	font-size: 36px;
 	position: relative;
 	display: inline-block;
@@ -57,6 +65,15 @@ Table of Contents:
 .title--white:after {
 	background: url(../img/title-r-w.png) no-repeat;
 }
+
+
+.title--special2 {
+    font-family: 'pretty';
+    font-size: 3.75rem;
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+
 
 .title--special {
 	font-family: "laug";

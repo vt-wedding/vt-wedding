@@ -214,7 +214,7 @@ Table of Contents:
 			var timeinterval = setInterval(updateClock, 1000);
 		}
 		// set your wedding date here
-		var deadline = 'August 18 2019 17:30:00 GMT+0300';
+		var deadline = 'September 15 2019 12:20:00 GMT+0300';
 		if (countdown){
 			initializeClock('timer', deadline);
 		}
