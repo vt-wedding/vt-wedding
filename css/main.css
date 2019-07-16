@@ -1298,14 +1298,7 @@ input.search-field {
 	}
 }
 
-.rsvp .title {
-	font-family: "Playfair Display", serif;
-	display: block;
-}
 
-.rsvp .title:after, .rsvp .title:before {
-	display: none;
-}
 
 .loader {
 	position: fixed;
